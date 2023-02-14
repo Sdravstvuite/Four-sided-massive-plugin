@@ -1,0 +1,15 @@
+name: FourSidedPlugin
+version: '${project.version}'
+main: fsplugin.foursided.FourSided
+api-version: 1.17
+authors: [ Sdravstvuite ]
+description: Four-Sided Server Plugin
+
+permissions:
+  nocd:
+    description: Убирает кд у предметов
+  god:
+    description: Бог
+commands:
+  sitem:
+    description: Божественные предметы
